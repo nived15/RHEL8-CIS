@@ -1,7 +1,7 @@
 ---
 
 - name: "SCORED | 3.4.1.1 | PATCH | Ensure a Firewall package is installed"
-  package:
+  yum:
       name: "{{ rhel8cis_firewall }}"
       state: present
   notify: restart {{ rhel8cis_firewall }}
