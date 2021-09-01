@@ -1,7 +1,7 @@
 ---
 
 - name: "NOTSCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use - service install"
-  package:
+  yum:
       name: "{{ rhel8cis_time_synchronization }}"
       state: present
   when:
