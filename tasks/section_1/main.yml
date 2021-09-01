@@ -31,8 +31,8 @@
 - name: "SECTION | 1.9 | Updated and Patches"
   include: cis_1.9.yml
 
-- name: "SECTION | 1.10 | Crypto policies"
-  include: cis_1.10.yml
+#- name: "SECTION | 1.10 | Crypto policies"
+#  include: cis_1.10.yml
 
-- name: "SECTION | 1.11 | FIPS/FUTURE Crypto policies"
-  include: cis_1.11.yml
+#- name: "SECTION | 1.11 | FIPS/FUTURE Crypto policies"
+#  include: cis_1.11.yml
